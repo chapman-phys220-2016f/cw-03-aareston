@@ -1,8 +1,8 @@
 # PHYS220 CW 3
 
-**Author(s):** _\<your name(s)\>_
+**Author(s):** Aaron Grisez _
 
-[![Build Status](https://travis-ci.org/chapman-phys220-2016f/cw-03-YOURNAME.svg?branch=master)](https://travis-ci.org/chapman-phys220-2016f/cw-03-YOURNAME)
+[![Build Status](https://travis-ci.org/chapman-phys220-2016f/cw-03-aareston.svg?branch=master)](https://travis-ci.org/chapman-phys220-2016f/cw-03-aareston)
 
 **Due date:** 2016/09/20
 
