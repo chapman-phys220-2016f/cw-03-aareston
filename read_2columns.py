@@ -46,9 +46,10 @@ def main():
     plt.ylabel('y variable')
     plt.title('Graphing 2 Column Data')
     plt.show()
-    print 'Mean y value is ', np.mean(dat[1])
-    print 'Max y value is ', np.amax(dat[1])
-    print 'Minimum y value is ', np.amin(dat[1])
+    yvals = np.array(dat[1])
+#    print 'Mean y value is ', np.average(yvals)
+#    print 'Max y value is ', np.amax(yvals)
+#    print 'Minimum y value is ', np.amin(yvals)
 
 
 def test_readDat():

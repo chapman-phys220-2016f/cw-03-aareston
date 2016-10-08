@@ -13,7 +13,7 @@ def fill_array(a, b, n):
     """
     Fills array with equally spaced points, taking the beginning point, the end point, and the number of desired coordinates
     """
-    return np.linspace(a, b, n, endpoint=True)
+    return np.linspace(a, b, n, endpoint=True, dtype=float)
 
 def h(x):
     """
@@ -23,7 +23,7 @@ def h(x):
 
 def main():
     for x in range(41):
-        print %-5d %-5d % (fill_array(-4, 4, 41)[x], h(fill_array(-4, 4, 41)[x]))
+        print '%-0.5f %-0.5f' % (fill_array(-4, 4, 41)[x], h(fill_array(-4, 4, 41)[x]))
 
 def test_h():
     """
