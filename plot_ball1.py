@@ -14,6 +14,14 @@ You can check this field for any other python module (numpy, sympy, etc.)
 to get an idea about how module documentation is usually handled.
 """
 
+#
+### INSTRUCTOR COMMENT:
+# Make sure your module docstring (above) is meaningful.
+# Leaving template is very bad practice as a coder.
+# The above is generic help for you, so you know what sort of things to
+# put in the docstring yourself.
+#
+
 import numpy as np
 import matplotlib.pyplot as plt
 
